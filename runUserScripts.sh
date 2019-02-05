@@ -1,14 +1,4 @@
 #!/bin/bash
-# LICENSE CDDL 1.0 + GPL 2.0
-#
-# Copyright (c) 1982-2017 Oracle and/or its affiliates. All rights reserved.
-#
-# Since: July, 2017
-# Author: gerald.venzl@oracle.com
-# Description: Runs user shell and SQL scripts
-# 
-# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
-# 
 
 SCRIPTS_ROOT="$1";
 
