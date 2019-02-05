@@ -17,7 +17,7 @@ Build the image:
 Running
 -------
 
-On first run, the database will be provisioned. Using a basic command like `docker run `davarski/oracle12c-r2-ee will set defaults for everything. You will also need to monitor the output to get the database password. 
+On first run, the database will be provisioned. Using a basic command like `docker run `davarski/oracle12c-r2-ee will set defaults for everything.  
 
 ```
 docker run -p 1521:1521 -p 5500:5500 -e ORACLE_SID=atscale -e ORACLE_PWD=atscale -e ORACLE_MEM=2000 -v /opt/oracle/oradata -d davarski/oracle12c-r2-ee
