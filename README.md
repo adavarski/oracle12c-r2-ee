@@ -62,6 +62,7 @@ Connecting to Oracle
 
 Once the container has been started you can connect to it like any other database. For example:
 `sqlplus sys/<your password>@//localhost:1521/<your SID> as sysdba`
+example sqlplus sys/atscale@//localhost:1521/atscale as sysdba
 
 If you did not set the `ORACLE_PWD` parameter, check the docker run output for the password.
 
